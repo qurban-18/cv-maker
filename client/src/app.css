@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.button_primary {
+  border: 1px transparent;
+  outline: none;
+  background: orange;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button_secondary {
+  border: 1px solid orange;
+  outline: none;
+  color: orange;
+  padding: 10px 20px;
+  background: white;
+  cursor: pointer;
+}
+
+.LandingPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

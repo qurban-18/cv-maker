@@ -1,0 +1,96 @@
+/* * body {
+  display: flex;
+  justify-content: center;
+} */
+
+ul {
+  list-style: none;
+}
+
+.Resume {
+  width: 700px;
+  height: 800px;
+  background: whitesomke;
+  margin: 10px 0;
+  box-shadow: 0 0 15px gray;
+  display: flex;
+}
+
+.resume_left {
+  width: 300px;
+  background: rgb(65, 64, 64);
+  height: 100%;
+  overflow: hidden;
+}
+
+.profile_img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.left_title {
+  background: #424753;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.right_title {
+  background: #ebebeb;
+  color: black;
+}
+
+.title_design {
+  padding: 10px 5px;
+  background: #f9bf09;
+}
+
+.left_title h3 {
+  padding-left: 20px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.resume_left li,
+.resume_right li {
+  margin-top: 15px;
+  color: white;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.resume_left li > span {
+  font-size: 12px;
+}
+
+.resume_right {
+  width: 100%;
+}
+
+.profile_head {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.profile_name {
+  font-size: 32px;
+  letter-spacing: 3px;
+}
+
+.profile_title {
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.resume_right li {
+  font-size: 14px;
+  color: black;
+}
